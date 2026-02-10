@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rashmi Pasi | Frontend Developer</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      padding-top: 70px;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    /* Dark Blue Accent */
+    :root {
+      --accent-blue: #0a3d62;
+    }
+
+    .accent {
+      color: var(--accent-blue);
+    }
+
+    /* Buttons */
+    .btn-accent {
+      background-color: var(--accent-blue);
+      color: #ffffff;
+      border: none;
+      padding: 12px 26px;
+      border-radius: 30px;
+      box-shadow: 0 6px 15px rgba(10, 61, 98, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .btn-accent:hover {
+      background-color: #072f4a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(10, 61, 98, 0.4);
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      background-color: #f8f9fa;
+    }
+
+    /* Section Box (Shadow) */
+    .section-box {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+      padding: 50px;
+    }
+
+    /* Skills Box */
+    .skill-box {
+      border: 1px solid #dee2e6;
+      padding: 22px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+    }
+
+    .skill-box:hover {
+      background-color: #eef5fb;
+      border-color: var(--accent-blue);
+      box-shadow: 0 8px 20px rgba(10, 61, 98, 0.15);
+    }
+
+    /* Cards */
+    .card {
+      border: none;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #212529;
+      color: #ffffff;
+      padding: 25px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Rashmi Pasi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="section-box text-center">
+        <h1 class="display-5">
+          Hi, I’m <span class="accent">Rashmi Pasi</span>
+        </h1>
+        <p class="lead mt-3">
+          An aspiring <strong>Frontend Developer</strong> focused on creating
+          responsive, accessible, and visually clean web interfaces.
+        </p>
+        <a href="#projects" class="btn btn-accent mt-4">
+          View Projects
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-box">
+        <h2 class="text-center mb-5 accent">Skills</h2>
+        <div class="row text-center">
+          <div class="col-md-3 col-6 mb-4">
+            <div class="skill-box">HTML5</div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="skill-box">CSS3</div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="skill-box">Bootstrap</div>
+          </div>
+          <div class="col-md-3 col-6 mb-4">
+            <div class="skill-box">JavaScript (Basic)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-box">
+        <h2 class="text-center mb-5 accent">Projects</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Responsive Portfolio Website</h5>
+                <p class="card-text">
+                  Developed a fully responsive personal portfolio website using
+                  HTML, CSS, and Bootstrap.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Landing Page Design</h5>
+                <p class="card-text">
+                  Built a mobile-friendly landing page with a strong focus on
+                  layout, spacing, and usability.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-box text-center">
+        <h2 class="mb-4 accent">Contact</h2>
+        <p>Email: rashmi@example.com</p>
+        <p>GitHub: https://github.com/yourusername</p>
+        <p>LinkedIn: https://linkedin.com/in/yourprofile</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-0">© 2026 Rashmi Pasi | Frontend Developer</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
