@@ -1,8 +1,7 @@
-# InternSpark-Internship
 # InternSpark Internship Projects  
 
 This repository contains all the projects completed as part of my **InternSpark Internship**.  
-Each task focuses on different frontend development concepts including responsive design, JavaScript, and API integration.
+Each task demonstrates practical implementation of frontend development concepts including responsive design, JavaScript, and API integration.
 
 ---
 
@@ -11,11 +10,11 @@ Each task focuses on different frontend development concepts including responsiv
 🔗 Live Demo:  
 https://rashmi0225.github.io/InternSpark-Internship/Task-1-Portfolio/
 
+💻 Source Code:  
+https://github.com/Rashmi0225/InternSpark-Internship/tree/main/Task-1-Portfolio
+
 🛠 Technologies Used:  
 HTML, CSS, Bootstrap  
-
-📂 Folder:  
-Task-1-Portfolio  
 
 ---
 
@@ -24,11 +23,11 @@ Task-1-Portfolio
 🔗 Live Demo:  
 https://Rashmi0225.github.io/InternSpark-Internship/Task-2-JS-MiniProject/
 
+💻 Source Code:  
+https://github.com/Rashmi0225/InternSpark-Internship/tree/main/Task-2-JS-MiniProject
+
 🛠 Technologies Used:  
 HTML, CSS, JavaScript, DOM Manipulation, LocalStorage  
-
-📂 Folder:  
-Task-2-JS-MiniProject  
 
 ---
 
@@ -37,11 +36,11 @@ Task-2-JS-MiniProject
 🔗 Live Demo:  
 https://Rashmi0225.github.io/InternSpark-Internship/Task-3-API-Integration/
 
+💻 Source Code:  
+https://github.com/Rashmi0225/InternSpark-Internship/tree/main/Task-3-API-Integration
+
 🛠 Technologies Used:  
 HTML, CSS, JavaScript, Fetch API, REST API  
-
-📂 Folder:  
-Task-3-API-Integration  
 
 ---
 
